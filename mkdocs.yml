@@ -1,0 +1,145 @@
+site_name: "Qvi' Web"
+repo_url: https://github.com/Qvidx # 右上角点击跳转的链接
+repo_name: Qvi # 右上角的名字
+
+theme:
+  name: material #主题名字
+  custom_dir: docs/overrides
+  language: zh  #站点语言
+
+  features:
+    - navigation.top                          # 返回顶部的按钮
+    - navigation.tabs                         # 导航栏
+    - navigation.sections                     # 不折叠导航栏
+    - navigation.expand                       # 自动打开折叠的子部分
+    - navigation.path                         # 显示导航路径
+    - search.suggest                          # 搜索建议
+    - search.highlight                        # 搜索结果高亮
+    - search.share                            # 搜索共享
+    - navigation.indexes  
+    - content.code.copy
+  hide:
+    - navigation
+    - toc
+
+  palette:
+   #更改主题颜色需要下面两个模式都要改
+    - scheme: default
+      primary: teal  # 主题主色调
+      toggle:
+        icon: material/brightness-7
+        name: 切换至夜间模式
+
+    - scheme: slate
+      primary: teal  # 主题主色调
+      toggle:
+        icon: material/brightness-4
+        name: 切换至日间模式
+  icon:
+     repo: fontawesome/brands/github #右上角图标
+     logo: image2
+  #edit_uri: edit/main/docs # 编辑按钮跳转的链接
+  
+nav:
+  - Home: index.md
+  - Test: test.md
+  - Install: install.md
+  - Blog:
+    - blog/index.md
+  - About: about.md
+  - Travelling: https://www.travellings.cn/go.html
+  # - Getting Started: getting-started.md
+  # - Installation: installation.md
+  # - Setup: setup.md
+  # - Configuration: setup/configuration.md
+  # - Navigation: setup/navigation.md
+  # - Plugins: plugins.md
+  # - Reference: reference.md
+  # - Community: community.md
+  # - Blog: blog.md
+    
+
+
+
+extra:
+  consent:
+    title: 🍪 Cookie 使用声明
+    description: >- 
+      我们使用 Cookie 来记录您的访问偏好，并衡量文档的有效性，帮助我们优化内容体验。
+      您的同意将有助于改进我们的文档质量。
+    actions:
+      - accept
+      - reject
+    policy:
+      name: "隐私政策"
+      link: "/privacy-policy/"
+  # alternate:
+  #   - name: English
+  #     link: /en/ 
+  #     lang: en
+  #   - name: Chinese
+  #     link: /zh/
+  #     lang: zh
+  # analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX
+  
+  # analytics: 
+  #   feedback:
+  #     title: Was this page helpful?
+  #     ratings:
+  #       - icon: material/emoticon-happy-outline
+  #         name: This page was helpful
+  #         data: 1
+  #         note: >-
+  #           Thanks for your feedback!
+  #       - icon: material/emoticon-sad-outline
+  #         name: This page could be improved
+  #         data: 0
+  #         note: >- 
+  #           Thanks for your feedback! Help us improve this page by
+  #           using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+
+
+plugins:
+  - search
+  - blog
+  # - mkdocs-material-extensions
+
+
+
+
+extra_css:
+  - "https://static.zeoseven.com/zsft/134/main/result.css"   #字体
+  - stylesheets/extra.css
+
+
+extra_javascript:
+  - javascripts/extra.js
+
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite    #支持行内代码高亮
+  - pymdownx.snippets        #支持外部 Markdown 片段导入，避免重复写相同内容。
+  - admonition               #支持创建提示框
+  - pymdownx.arithmatex:     #启用 LaTeX 数学公式 支持
+      generic: true
+  - footnotes                #脚注支持
+  - pymdownx.details         #折叠详情框
+  - pymdownx.superfences     #代码块增强
+  - pymdownx.mark            #高亮文本
+  - attr_list                #允许给元素添加 HTML 属性。
+  - pymdownx.emoji:          #支持表情符号
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+  - attr_list                #许使用网格，允许将相同或不同类型的块变成矩形
+  - md_in_html               #许使用网格，允许将相同或不同类型的块变成矩形
+
+  - attr_list                #图标
+  - pymdownx.emoji:          #表情
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
