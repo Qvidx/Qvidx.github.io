@@ -46,7 +46,7 @@ nav:
   - Install: install.md
   - Blog:
     - blog/index.md
-  - About: about.md
+  - About: about/about.md
   - Travelling: https://www.travellings.cn/go.html
   # - Getting Started: getting-started.md
   # - Installation: installation.md
@@ -112,7 +112,7 @@ plugins:
 extra_css:
   - "https://static.zeoseven.com/zsft/134/main/result.css"   #字体
   - stylesheets/extra.css
-
+  - about/style/about.css
 
 extra_javascript:
   - javascripts/extra.js
