@@ -1,3 +1,12 @@
+/*==================== 今日诗句 ====================*/
+.center {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2em; /* 可选，调整字体大小 */
+  }
+
+
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
     display: flex;
