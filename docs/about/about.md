@@ -97,7 +97,7 @@ comments: true  #默认不开启评论
                 <!-- 时间线项目 -->
                 <div class="qualification__data">
                     <div>
-                        <h3 class="qualification__title">漯河高中</h3>
+                        <h3 class="qualification__title">垫江实验中学</h3>
                         <span class="qualification__subtitle">平凡的三年</span>
                         <div class="qualification__calendar">
                             <iconify-icon icon="tabler:calendar" aria-hidden="true"></iconify-icon>
@@ -116,21 +116,21 @@ comments: true  #默认不开启评论
                         <span class="qualification__line"></span>
                     </div>
                     <div>
-                        <h3 class="qualification__title">CTBU</h3>
-                        <span class="qualification__subtitle">电子信息工程专业学士</span>
+                        <h3 class="qualification__title">CQUE</h3>
+                        <span class="qualification__subtitle">计算机科学与技术专业学士</span>
                         <div class="qualification__calendar">
                             <iconify-icon icon="tabler:calendar" aria-hidden="true"></iconify-icon>
-                            <span class="qualification__date">2021 - 2025</span>
+                            <span class="qualification__date">2021 - 2024</span>
                         </div>
                     </div>
                 </div>
                 <div class="qualification__data">
                     <div>
-                        <h3 class="qualification__title">家里蹲大学</h3>
-                        <span class="qualification__subtitle">密码学硕士研究生</span>
+                        <h3 class="qualification__title">交流学习</h3>
+                        <span class="qualification__subtitle">重庆大学智能网联汽车专业</span>
                         <div class="qualification__calendar">
                             <iconify-icon icon="tabler:calendar" aria-hidden="true"></iconify-icon>
-                            <span class="qualification__date">2026 - 2029</span>
+                            <span class="qualification__date">2024 - 2025</span>
                         </div>
                     </div>
                     <div>
