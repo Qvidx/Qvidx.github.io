@@ -43,7 +43,8 @@ theme:
 nav:
   - Home: index.md
   - Test: test.md
-  - Share: share.md
+  - Share: 
+    - 好物分享: share/share.md
   - Blog:
     - blog/index.md
   - Links:  links.md
