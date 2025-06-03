@@ -81,7 +81,10 @@ comments: true  #默认不开启评论
 - :simple-tiktok: [__抖音:__ sleeep](https://www.douyin.com/user/MS4wLjABAAAAHUzLA-zgJikwHAtsf7V083S7zfaa5CSlR2EOR6XNSVI?from_tab_name=main){ target="_blank" }
 </div>
 
-
+??? warning
+    能私下解决，就不发消息；
+    能发消息，就不打电话；
+    谢绝直接du语音！！！
 
 ## 我的履历
 

@@ -1,38 +1,15 @@
 ---
 hide:
-#   - navigation # 显示右
-#   - toc #显示左
+# - navigation # 显示右
+# - toc #显示左
   - footer
   - feedback
 comments: false
 ---
 
 
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+# 页面卡顿，请使用{--科学上网--}
+<center><font  color= #757575 size=6.5 >循此苦旅 以达星辰</font></center>
 
 
-#### Code for a specific language
-Some more code with the py at the start:
-```python
-print("hello world")
-print("hello world")
-print("hello world")
-print("hello world")
-
-```
+## 不知道放什么，咱们就先放着
