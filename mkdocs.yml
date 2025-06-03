@@ -43,9 +43,10 @@ theme:
 nav:
   - Home: index.md
   - Test: test.md
-  - Install: install.md
+  - Share: share.md
   - Blog:
     - blog/index.md
+  - Links:  links.md
   - About: about/about.md
   - Travelling: https://www.travellings.cn/go.html
   # - Getting Started: getting-started.md
@@ -143,3 +144,13 @@ markdown_extensions:
   - pymdownx.emoji:          #表情
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  
+  - admonition               #可添加告诫，备注，提示，注意，警告，错误，详情，总结，提示框
+  - pymdownx.details         #可添加告诫，备注，提示，注意，警告，错误，详情，总结，提示框
+  - pymdownx.superfences     #可添加告诫，备注，提示，注意，警告，错误，详情，总结，提示框
+  
+  - pymdownx.critic          #配置支持键盘键、跟踪文档中的更改、定义下标和上标以及突出显示文本。将以下行添加到
+  - pymdownx.caret           #配置支持键盘键、跟踪文档中的更改、定义下标和上标以及突出显示文本。将以下行添加到
+  - pymdownx.keys            #配置支持键盘键、跟踪文档中的更改、定义下标和上标以及突出显示文本。将以下行添加到
+  - pymdownx.mark            #配置支持键盘键、跟踪文档中的更改、定义下标和上标以及突出显示文本。将以下行添加到
+  - pymdownx.tilde           #配置支持键盘键、跟踪文档中的更改、定义下标和上标以及突出显示文本。将以下行添加到
