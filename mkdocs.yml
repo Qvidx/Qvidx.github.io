@@ -45,6 +45,7 @@ nav:
   - Test: test.md
   - Share: 
     - 好物分享: share/share.md
+    - 沉浸式翻译: share/Translate.md
   - Blog:
     - blog/index.md
   - Links:  links.md
