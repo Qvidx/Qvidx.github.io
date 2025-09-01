@@ -178,7 +178,7 @@
           />
           <div class="card-header">
             <div>
-              <a href="https://leeian.cn:2025/" target=""_blank"">Leeian's blog</a>
+              <a href="https://leeian.cn:2025/" target="_blank">Leeian's blog</a>
             </div>
             <div class="info">人称外号小李子</div>
           </div>
@@ -190,7 +190,7 @@
           />
           <div class="card-header">
             <div>
-              <a href="https://dczcq.cn/" target=""_blank"">Sevenalist</a>
+              <a href="https://dczcq.cn/" target="_blank">Sevenalist</a>
             </div>
             <div class="info">语言艺术家，理工男中的哲学家</div>
           </div>
@@ -202,7 +202,7 @@
           />
           <div class="card-header">
             <div>
-              <a href="https://dxlcq.cn/" target=""_blank"">骄骄</a>
+              <a href="https://dxlcq.cn/" target="_blank">骄骄</a>
             </div>
             <div class="info">一肚子的技术</div>
           </div>
@@ -214,7 +214,7 @@
           />
           <div class="card-header">
             <div>
-              <a href="https://wanjc.top/" target=""_blank"">W W</a>
+              <a href="https://wanjc.top/" target="_blank">W W</a>
             </div>
             <div class="info">毛毛球高玩</div>
           </div>
